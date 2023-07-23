@@ -1,0 +1,211 @@
+body{
+    background-image: url('../images/2.jpeg');
+    background-size: 101%;
+    
+
+}
+
+
+nav {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    /* background-color: red; */
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: green;
+    color: rgb(226, 223, 223);
+    transition-duration: 1s;
+}
+
+nav i {
+    color: #0e551d !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    width: 200px;
+    background-color: #e7e7e7;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown-content a:hover {
+    background-color: #00911f;
+    color: #e7e7e7;
+    /* box-shadow: 10px #3f3f3f; */
+}
+
+.dropdown-content a i {
+    padding-left: 5px;
+}
+
+.power {
+    width: 100%;
+    background-color: rgb(35, 89, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 30px;
+    color: #e7e7e7;
+    font-weight: bold;
+}
+.dropdown-content a i 
+.fa-caret-down:hover {
+
+    color: #e7e7e7;
+}
+
+.body{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold; 
+}
+.p-3 {
+    padding: 1rem !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+    padding: 10px;
+  
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 60px 20px 0px; */
+    padding: 1rem;
+    height: 150px;
+   border:solid 2px red;
+}
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+
+}
+.d-flex {
+    display: flex !important;
+}
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: 0.375rem;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: #fff;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
+.card-header:first-child {
+    border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+}
+.pt-2 {
+    padding-top: 0.5rem !important;
+}
+.p-3 {
+    padding: 1rem !important;
+}
+.card-header {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    margin-bottom: 0;
+    color: black;
+    background-color:rgb(255, 255, 255);
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+
+}
+.text-center {
+    text-align: center !important;
+}
+
+.text-end img {
+   width: 120px;
+   height: 100px;
+   
+}
+.text-end {
+    text-align: center !important;
+}
+.pt-1 {
+    padding-top: 0.25rem !important;
+}.mb-0 {
+    margin-bottom: 0 !important;
+}
+p {
+    padding: 2px;
+    margin: 2px;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+.mx-1 {
+    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
+}
+
+.card-footer{
+    
+    text-align: center;
+    border:2px 0px 0px 0px;
+    background-color: rgb(229, 229, 229);
+}

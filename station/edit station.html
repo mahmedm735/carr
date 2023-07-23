@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NEW STATION</title>
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../station/edit station.css">
+</head>
+
+<body style="margin: 0;">
+    <div
+        style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background-image: url('../images/2.jpeg'); background-size: 100% 100% ; height: 80px; display: flex;">
+        <div style="display: flex; align-items: center;">
+            <img src="../images/3.png" alt="Logo" style="height: 80px; margin-right: 10px;">
+            <span style="font-size: 20px; font-weight: bold;"></span>
+        </div>
+        <div style="font-size: 20px;">
+            <span style="font-weight: bold;">Date:</span> <span style="margin-left: 5px;">July 24, 2023</span>
+        </div>
+        <div style="font-size: 16px;">
+            <span style="font-weight: bold; font-size: 25px;">برنامج تسويق المحطات</span>
+        </div>
+    </div>
+    <nav style="background-color: #d1f0d3;  display: flex; justify-content: space-around; padding: 0px;">
+
+
+        <div class="part1">
+            <a href="../login/login.html">الخروج
+                <i class="fa-solid fa-right-from-bracket"></i>
+            </a>
+
+        </div>
+        <div class="part2">
+
+            <a href="../changepass/change.html">تغير كلمة المرور
+                <i class="fa-solid fa-unlock"></i>
+            </a>
+
+        </div>
+
+        <div class="part3  dropdown">
+            <a href="../reports/reports.html"> <i class="fa-solid fa-caret-down"></i>
+                التقارير
+                <i class="fa-solid fa-file"></i>
+            </a>
+            <div class="dropdown-content">
+                <a href="../reports/reports.html">احصائيات رقمية
+                    <i class="fa-solid fa-hashtag"></i>
+                </a>
+                <a href="#">تقارير تفصيلية
+                    <i class="fa-solid fa-file-pen"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="part4">
+            <a href="../revision/revision.html">المراجعة
+                <i class="fa-solid fa-clipboard-check"></i>
+            </a>
+
+        </div>
+        <div class="part5">
+            <a href="../search/search.html">البحث
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+        </div>
+        <div class="part6">
+            <a href="../location/locatio.html">المواقع
+                <i class="fa-solid fa-globe"></i>
+            </a>
+
+        </div>
+        <div class="part7  dropdown">
+            <a href="../station/station.html"> <i class="fa-solid fa-caret-down "></i>
+                المحطات
+                <i class="fa-solid fa-gas-pump"></i>
+            </a>
+            <div class="dropdown-content">
+                <a href="../station/station.html">اضافة محطة
+                    <i class="fa-solid fa-circle-plus"></i>
+                </a>
+                <a href="../station/edit station.html">تعديل محطة
+                    <i class="fa-solid fa-file-pen"></i>
+                </a>
+            </div>
+        </div>
+        <div class="part8 ">
+            <a href="../home/home.html">الرئيسية
+                <i class="fa-solid fa-house-chimney"></i>
+            </a>
+
+        </div>
+
+    </nav>
+    <div class="power">
+        <p>تعديل بيانات المحطة
+            <i class="fa-solid fa-file-pen"></i>
+        </p>
+    </div>
+
+    <div class="sec1">
+        <div class="lPart">
+            <Table width="100%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="front">الجهة الأمامية</label>
+                        </td>
+                        <td>
+                            <input id="front" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">
+                            <label for="right">الجهة اليمنى</label>
+                        </td>
+                        <td>
+                            <input id="front" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">
+                            <label for="left">الجهة اليسرى</label>
+                        </td>
+                        <td>
+                            <input id="front" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">
+                            <label for="back">الجهة الخلفية</label>
+                        </td>
+                        <td>
+                            <input id="front" type="text">
+                        </td>
+                    </tr>
+                </tbody>
+
+            </Table>
+        </div>
+
+        <div class="rPart">
+            <Table width="100%" class="first">
+                <tbody>
+                    <tr class="second">
+                        <td>
+                            <label for="city">المحافظة</label>
+                        </td>
+                        <td>
+
+                            <select name="city" id="City">
+                                <option value="0">المحافظات</option>
+                                <option value="1">القاهرة</option>
+                                <option value="2">الجيزة</option>
+                                <option value="3">الأسكندرية</option>
+                                <option value="4">الدقهلية</option>
+                                <option value="5">الشرقية</option>
+                                <option value="6">المنوفية</option>
+                                <option value="7">القليوبية</option>
+                                <option value="8">البحيرة</option>
+                                <option value="9">الغربية</option>
+                                <option value="10">بور سعيد</option>
+                                <option value="11">دمياط</option>
+                                <option value="12">الإسماعلية</option>
+                                <option value="13">السويس</option>
+                                <option value="14">كفر الشيخ</option>
+                                <option value="15">الفيوم</option>
+                                <option value="16">بني سويف</option>
+                                <option value="17">مطروح</option>
+                                <option value="18">شمال سيناء</option>
+                                <option value="19">جنوب سيناء</option>
+                                <option value="20">المنيا</option>
+                                <option value="21">أسيوط</option>
+                                <option value="22">سوهاج</option>
+                                <option value="23">قنا</option>
+                                <option value="24">البحر الأحمر</option>
+                                <option value="25">الأقصر</option>
+                                <option value="26">أسوان</option>
+                                <option value="27">الواحات</option>
+                                <option value="28">الوادي الجديد</option>
+
+                            </select>
+                        </td>
+                        <td>
+                            <label for="stationName">اسم المحطة</label>
+                        </td>
+                        <td>
+                            <input id="stationName" type="text">
+                        </td>
+                        <td>
+                            <label for="date">تاريخ المعاينة</label>
+                        </td>
+                        <td>
+                            <input id="date" type="date">
+                        </td>
+                    </tr>
+
+                    <tr class="second">
+                        <td>
+                            <label for="date">المدينة</label>
+                        </td>
+                        <td>
+                            <input id="stationName" type="text">
+                        </td>
+
+                        <td>
+                            <label for="date">العنوان</label>
+                        </td>
+                        <td colspan="4">
+                            <input id="stationName" type="text">
+                        </td>
+                    </tr>
+
+                    <tr class="second">
+                        <td>
+                            <label for="date">الطريق</label>
+                        </td>
+                        <td colspan="5">
+                            <input id="stationName" type="text">
+                        </td>
+                    </tr>
+
+                </tbody>
+            </Table>
+            <table class="third w-100">
+                <tr>
+                    <td class="d-flex justify-content-center">
+                        <label for="date">الخدمات</label>
+                    </td>
+                    <td>
+                        <label for="date">زيوت و شحوم</label>
+                        <input id="stationName" type="checkbox">
+                    </td>
+                    <td>
+                        <label for="date">زوايا واتزان</label>
+                        <input id="stationName" type="checkbox">
+                    </td>
+                    <td>
+                        <label for="date">ميكانيكا</label>
+                        <input id="stationName" type="checkbox">
+                    </td>
+                    <td>
+                        <label for="date">كهرباء</label>
+                        <input id="stationName" type="checkbox">
+                    </td>
+                    <td>
+                        <label for="date">غسيل</label>
+                        <input id="stationName" type="checkbox">
+                    </td>
+                    <td>
+                        <label for="date">مطلع سماوي</label>
+                        <input id="stationName" type="checkbox">
+                    </td>
+                    <td>
+                        <label for="date">ماركت</label>
+                        <input id="stationName" type="checkbox">
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="sec2">
+        <div>
+            <label for="date">المالك</label>
+        </div>
+        <div>
+            <input id="stationName" name="choose" type="radio">
+            <label for="date">شركة</label>
+            <input class="textinput" id="stationName" type="text">
+
+        </div>
+
+        <div>
+            <input id="stationName" name="choose" type="radio">
+            <label for="date">وكيل</label>
+            <input class="textinput" id="stationName" type="text">
+        </div>
+        <div>
+            <label for="date">التليفون</label>
+            <input class="textinput" id="stationName" type="text">
+        </div>
+        <div>
+            <label for="date">الإحداثيات</label>
+            <input class="textinput" id="stationName" type="text">
+        </div>
+    </div>
+    <div class="sec3">
+
+        <div class="left">
+            <p>الوقود السائل</p>
+            <div class="as">
+                <div class=" al">
+                    <label for="date">80</label>
+                    <input id="stationName" type="text">
+                </div>
+                <div class=" al">
+                    <label for="date">92</label>
+                    <input id="stationName" type="text">
+                </div>
+            </div>
+
+            <div class="as">
+                <div class=" al">
+                    <label for="date">سولار</label>
+                    <input id="stationName" type="text">
+                </div>
+                <div class=" al">
+                    <label for="date">95</label>
+                    <input id="stationName" type="text">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="middle">
+            <div class="top">
+                <table class="third w-100">
+                    <tr>
+                        <td class="d-flex justify-content-center">
+                            <label for="date">الكثافة المرورية</label>
+                        </td>
+                        <td>
+                            <label for="date"> ضعيفة </label>
+                            <input id="stationName" name="choose" type="radio">
+                        </td>
+                        <td>
+                            <label for="date"> متوسطة</label>
+                            <input id="stationName" name="choose" type="radio">
+                        </td>
+                        <td>
+                            <label for="date">مرتفعة</label>
+                            <input id="stationName" name="choose" type="radio">
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+            <div class="midd">
+                <div class="all">
+                    <label for="date">ملاكي</label>
+                    <input id="stationName" type="text">
+                </div>
+                <div class=" all">
+                    <label for="date">تاكسي</label>
+                    <input id="stationName" type="text">
+                </div>
+                <div class=" all">
+                    <label for="date">ميكروباص</label>
+                    <input id="stationName" type="text">
+                </div>
+                <div class=" all">
+                    <label for="date">فان</label>
+                    <input id="stationName" type="text">
+                </div>
+                <div class=" all">
+                    <label for="date">نقل</label>
+                    <input id="stationName" type="text">
+                </div>
+
+
+            </div>
+            <div class="mbottom">
+                <tr>
+                    <td>
+                        <label for="front"> ملاحظات</label>
+                    </td>
+                    <td>
+                        <input id="front" type="text">
+                    </td>
+                </tr>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="right">
+            <Table width="100%">
+                <tbody>
+                    <tr>
+                        <td class="label">
+                            <label for="front"> موقف سيارات</label>
+                        </td>
+                        <td>
+                            <input id="front" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">
+                            <label for="right"> محطات وقود</label>
+                        </td>
+                        <td>
+                            <input id="front" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">
+                            <label for="left">محطات غاز</label>
+                        </td>
+                        <td>
+                            <input id="front" type="text">
+                        </td>
+                    </tr>
+
+                </tbody>
+            </Table>
+
+
+        </div>
+    </div>
+
+    <div class="sec4">
+        <div class="sec4-p1">
+            
+                <table class="third w-100">
+                    <tr>
+                        <td class="">
+                            <label for="date">غاز طبيعي</label>
+                        </td>
+                        <td>
+                            <label for="date"> متوافر </label>
+                            <input id="stationName" name="choose" type="radio">
+                        </td>
+                        <td>
+                            <label for="date"> غير متوافر</label>
+                            <input id="stationName" name="choose" type="radio">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="">
+                            <label for="date"> المساحة</label>
+                        </td>
+                        <td>
+                            <label for="date"> متوافرة </label>
+                            <input id="stationName" name="chooseone" type="radio">
+                        </td>
+                        <td>
+                            <label for="date"> غير متوافرة</label>
+                            <input id="stationName" name="chooseone" type="radio">
+                        </td>
+
+                    </tr>
+                </table>
+            
+
+
+        </div>
+        <div class="sec4-p2">
+            <p>وصف المساحة</p>
+            <input id="input" type="text">
+        </div>
+        <div class="sec4-p3">
+            <table class="third w-100">
+                <tr>
+                    <td class="">
+                        <label for="date"> الصلاحية</label>
+                    </td>
+                    <td>
+                        <label for="date"> تصلح </label>
+                        <input id="stationName" name="choose" type="radio">
+                    </td>
+                    <td>
+                        <label for="date"> لا تصلح</label>
+                        <input id="stationName" name="choose" type="radio">
+                    </td>
+               
+            </table>
+
+        </div>
+        <div class="sec4-p4">
+            <p>مسئول المعاينة</p>
+            <input id="input" type="text">
+        </div>
+    </div>
+  <div class="button">
+    <button type="submit" class="btn btn-primary">  حفط التعديلات</button>
+    <button type="submit" class="btn btn-success">  إلغاء التعديلات</button>
+    <button type="submit" class="btn btn-danger">  حذف المحطة</button>
+  </div>
+
+
+
+
+</body>
+
+</html>
